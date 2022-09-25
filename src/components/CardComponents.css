@@ -1,0 +1,32 @@
+.header {
+  text-align: center;
+  font-size: 5em;
+}
+
+p {
+  text-align: center;
+}
+
+.cardname {
+  font-weight: 1000;
+}
+
+.colorcode {
+  font-size: medium;
+  font-style: oblique;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: rgrgba(59, 37, 37, 0.4) px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+  cursor: copy;
+}
+.section1 {
+  display: grid;
+  margin: 2em;
+  justify-content: center;
+}
